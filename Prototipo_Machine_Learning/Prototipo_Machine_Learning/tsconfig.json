@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5", // Define a versão do JavaScript de saída. es5 é comum para navegadores mais antigos.
+    "lib": ["es5", "dom"], // Inclui bibliotecas de tipos para ES5 e APIs de DOM (para cy.get, window, document).
+    "types": ["cypress", "./support/customIntellisense.d.ts"], // Inclui as tipagens do Cypress e suas customizadas.
+    "isolatedModules": true, // Recomendado para Cypress para garantir que cada arquivo seja tratado como um módulo independente.
+    "esModuleInterop": true, // Ajuda com importações de módulos (require/import).
+    "moduleResolution": "node", // Define como os módulos são resolvidos (importante para o node_modules).
+    "allowJs": true, // Permite que o TypeScript processe arquivos JavaScript (.js) para Intellisense e verificação de tipos.
+    "noEmit": true // Não gerar nenhum arquivo de saída no console
+  },
+  "include": [
+    "**/*.ts", // Inclui todos os arquivos TypeScript
+    "**/*.js", // Inclui todos os arquivos JavaScript (seus testes, comandos, etc.)
+    "cypress/**/*.ts", // Certifica-se de incluir quaisquer arquivos TS dentro da pasta cypress
+    "cypress/**/*.js" // Certifica-se de incluir quaisquer arquivos JS dentro da pasta cypress
+  ],
+  "exclude": [
+    "node_modules" // Exclui a pasta node_modules da verificação de tipos
+  ]
+}

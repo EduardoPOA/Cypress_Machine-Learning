@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><locators>
+  <element key="Google.BtnPesquisa" value="html > body > div:nth-of-type(1) > div:nth-of-type(3) > form > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > center > input:nth-of-type(1)" baseValue="/html/body/div[1]/div[3]/form/div[1]/div[1]/div[3]/center/input[1]"/>
+  <element key="Google.BtnSorte" value="html > body > div:nth-of-type(1) > div:nth-of-type(3) > form > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > center > input:nth-of-type(2)" baseValue="/html/body/div[1]/div[3]/form/div[1]/div[1]/div[3]/center/input[2]"/>
+  <element key="Google.TextBox" value="html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > form:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > textarea:nth-of-type(1)" baseValue="html[1]/body[1]/div[1]/div[3]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/textarea[1]"/>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+  <element key="" value="" baseValue=""/>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+</locators>

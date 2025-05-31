@@ -1,0 +1,40 @@
+{
+  "name": "Prototipo-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test": "cypress run"
+  },
+  "author": "EY",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.4.0",
+    "cypress-delete-downloads-folder": "^0.0.4",
+    "cypress-downloadfile": "^1.2.3",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-fs": "^0.2.4",
+    "cypress-otp": "^1.0.3",
+    "cypress-real-events": "^1.10.3",
+    "cypress-wait-until": "^2.0.1",
+    "cypress-xpath": "^2.0.1",
+    "fs-extra": "^11.1.1",
+    "npm": "^9.6.6"
+  },
+  "dependencies": {
+    "@azure/msal-browser": "^2.37.0",
+    "csv-parser": "^3.0.0",
+    "cypress-msal-login": "^1.1.1",
+    "dayjs": "^1.11.8",
+    "file-system": "^2.2.2",
+    "glob": "^10.3.10",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
+    "msal": "^1.4.18",
+    "rimraf": "^5.0.5",
+    "unique-selector": "^0.5.0",
+    "xml2js": "^0.6.2",
+    "xpath-to-css": "^1.1.0"
+  }
+}

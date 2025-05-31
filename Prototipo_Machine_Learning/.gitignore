@@ -1,0 +1,13 @@
+
+node_modules
+.vscode/launch.json
+cypress.config.js
+cypress\videos
+cypress\reports\junit
+cypress\screenshots
+
+cypress/e2e/costingInstanceUploads.cy.js
+cypress/e2e/costingInstanceUploads.cy.js
+cypress/e2e/editExistingProductNameGetException.cy.js
+cypress/e2e/editingCostInstance.cy.js
+cypress/e2e/editingCostInstanceGroup.cy.js
